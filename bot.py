@@ -10,6 +10,8 @@ game = Giochino()
 
 
 while True:
+    game.clearMenu()
+    #game.redeemPremium()
     game.singlePlayer()
     time.sleep(5)
     game.dumbPlay()
