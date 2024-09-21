@@ -8,7 +8,7 @@ import keyboard
 
 
 class Giochino:
-    gameWindowTitle = '1945 Air Force: Airplane games'
+    gameWindowTitle = '1945 Air Force'
 
     def __init__(self):
         self.gameWindow = pygetwindow.getWindowsWithTitle(self.gameWindowTitle)[0]
